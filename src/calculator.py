@@ -18,3 +18,6 @@ class Calculator:
 
     def division(self):
         return f"The division value is: {self.a / self.b}"
+    
+    def get_celing_value(self):
+        return f"The celing value is: {self.a // self.b}"
