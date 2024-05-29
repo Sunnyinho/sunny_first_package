@@ -1,0 +1,25 @@
+#########################################
+# Editor temporary/working/backup files #
+
+.project
+.pydevproject
+.settings
+.idea
+.vagrant
+.noseids
+.ipynb_checkpoints
+.tags
+.cache/
+.vscode/
+
+# pyenv
+.python-version
+
+# python builds
+dist
+build
+
+#Egg metadata
+*.egg-info
+.eggs
+.pypirc

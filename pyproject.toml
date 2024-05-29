@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69.0.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "sunny_first_package"
+version = "0.0.2"
+authors = [
+  { name="Sunny Shah", email="sunnnny619@gmail.com" },
+]
+description = "A small example package called sunny-first-package-sunnyinho"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
