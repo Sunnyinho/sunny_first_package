@@ -1,11 +1,13 @@
 [build-system]
-requires = ["setuptools>=69.0.0"]
+requires = ["setuptools>=69.0.0", "wheel", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 
 [project]
 name = "sunny_first_package"
-version = "0.0.3"
+dynamic = [
+  "version"
+]
 authors = [
   { name="Sunny Shah", email="sunnnny619@gmail.com" },
 ]
